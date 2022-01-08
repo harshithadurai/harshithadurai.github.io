@@ -47,6 +47,17 @@ body {
     color: var(--pink);
 }
 
+@media only screen and (max-width: 550px) {
+    body {
+        margin: 0;
+    }
+    svg {
+        height: 400px;
+        margin-left: -85px;
+        margin-right: auto;
+    }
+}
+
 /* typing text animation start */
 
 .beige-text {
@@ -158,6 +169,15 @@ body {
     background-color: var(--brown);
 }
 
+@media only screen and (max-width: 550px) {
+    .middiv {
+        height: 0;
+    }
+    .middiv2 {
+        height: 10px;
+    }
+}
+
 /* sections */
 
 .sections-divider {
@@ -199,7 +219,10 @@ body {
 
 @media only screen and (max-width: 550px) {
     .title {
-        font-size: 15px;
+        font-size: 20px;
+    }
+    .title-reflection {
+        font-size: 20px;
     }
 }
 
