@@ -161,7 +161,7 @@ body {
 /* sections */
 
 .sections-divider {
-    height: 8vw;
+    height: 6vw;
     background-color: var(--dark-blue);
     clear: both;
 }
@@ -254,6 +254,7 @@ body {
     background-repeat: no-repeat;
     height: 40vw;
     padding-top: 4vw;
+    margin-top: 2vw;
 }
 
 #skills-subtitle1 {
@@ -388,7 +389,7 @@ body {
 /* experience */
 
 .experience-container {
-    margin-top: 4vw;
+    padding-top: 5vw;
 }
 
 .exp-item {
