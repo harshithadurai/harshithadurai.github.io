@@ -54,7 +54,9 @@ body {
     svg {
         height: 400px;
         margin-left: -85px;
-        margin-right: auto;
+    }
+    .topdiv {
+        font-size: 15px;
     }
 }
 
@@ -154,7 +156,6 @@ body {
     from { opacity: 0% }
     to { opacity: 100% }
 }
-
 
 
 /* typing text animation end */
