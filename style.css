@@ -157,6 +157,40 @@ body {
     to { opacity: 100% }
 }
 
+@media only screen and (max-width: 550px) {
+    .c1 {
+        position: absolute;
+        top: 15%;
+        left: 19%;
+    }
+    
+    .c2 {
+        position: absolute;
+        top: 18%;
+        left: 19%;
+    } 
+    
+    .c3 {
+        position: absolute;
+        top: 21%;
+        left: 19%;
+    }
+    
+    .c4 {
+        position: absolute;
+        top: 24%;
+        left: 19%;
+    }
+    
+    .c5 {
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
+
 
 /* typing text animation end */
 
@@ -268,6 +302,13 @@ body {
         padding-bottom: 30px;
         font-size: 15px;
     }
+    .about-container {
+        height: 70vw;
+        margin-bottom: -50px;
+    }
+    #column2 {
+        visibility: hidden;
+    }
 }
 
 /* skills */
@@ -333,6 +374,20 @@ body {
     float: right;
     width: 10%;
     padding-top: 1vw
+}
+
+@media only screen and (max-width: 550px) {
+    .skills-container {
+        height: 250px;
+        margin-bottom: -30px;
+    }
+    #skills-subtitle1 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    #skills-subtitle2 {
+        font-size: 13px;
+    }
 }
 
 /* projects */
@@ -548,4 +603,8 @@ body {
     width: 100%;
     display: block;
     transition: top 0.3s;
+}
+
+@media only screen and (max-width: 550px) {
+
 }
