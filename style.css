@@ -28,6 +28,9 @@ body {
     color: var(--pink);
 }
 
+a {
+    color: var(--beige);
+}
 .topdiv {
     position: relative;
     background-color: transparent;
@@ -317,14 +320,14 @@ body {
     background-image: url(skills-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vw;
+    height: 50vw;
     padding-top: 4vw;
     margin-top: 2vw;
 }
 
 #skills-subtitle1 {
     color: var(--beige);
-    margin-top: 3.2vw;
+    margin-top: 3vw;
     padding-left: 2vw;
     font-size: 1.7vw;
     background: linear-gradient(to left, transparent 84%, var(--purple) 16%);
@@ -341,17 +344,25 @@ body {
     display: table;
   }
 
-.lang-col i {
+  .lang-col i {
     font-size: 5vw;
     float: left;
     width: 10%;
-    padding-top: 1vw
+    padding-top: 0vw;
 }
+
+.lang-col text {
+    font-size: 1.3vw;
+    float: left;
+    width: 10%;
+    margin-top: -1vw;
+}
+
 
 #skills-subtitle2 {
     color: var(--beige);
     text-align: right;
-    margin-top: 3.2vw;
+    margin-top: 3vw;
     padding-right: 2vw;
     font-size: 1.7vw;
     background: linear-gradient(to right, transparent 84%, var(--purple) 16%);
@@ -373,7 +384,14 @@ body {
     font-size: 5vw;
     float: right;
     width: 10%;
-    padding-top: 1vw
+    padding-top: 0vw
+}
+
+.tech-col text {
+    font-size: 1.3vw;
+    float: right;
+    width: 10%;
+    margin-top: -1vw;
 }
 
 @media only screen and (max-width: 550px) {
@@ -393,7 +411,7 @@ body {
 /* projects */
 
 .projects-container {
-    padding-top: 4vw;
+    margin-top: -4vw;
 }
 
 .proj-row {
