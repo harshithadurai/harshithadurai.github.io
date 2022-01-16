@@ -387,6 +387,13 @@ a {
     padding-top: 0vw
 }
 
+.tech-col img {
+    height: 5vw;
+    float: right;
+    padding-right: 0vw;
+    margin-right: 0.5vw;
+}
+
 .tech-col text {
     font-size: 1.3vw;
     float: right;
@@ -519,6 +526,7 @@ a {
 
 .exp-list {
     list-style-type: circle;
+    padding-right: 1.5vw;
 }
 
 .item-right {
