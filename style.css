@@ -503,7 +503,6 @@ a {
 }
 
 .date {
-    font-style: italic;
     text-align: right;
     font-size: 1.2vw;
 }
@@ -527,6 +526,10 @@ a {
 .exp-list {
     list-style-type: circle;
     padding-right: 1.5vw;
+}
+
+.exp-list li {
+    padding-bottom: 0.5vw;;
 }
 
 .item-right {
