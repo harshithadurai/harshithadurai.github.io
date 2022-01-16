@@ -603,6 +603,10 @@ a {
     font-size: 5vw;
 }
 
+.contact img {
+    height: 4.5vw;
+}
+
 .links a {
     color: var(--beige);
     text-decoration: underline;
