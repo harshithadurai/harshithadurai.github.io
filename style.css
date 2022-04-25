@@ -53,6 +53,7 @@ a {
 @media only screen and (max-width: 550px) {
     body {
         margin: 0;
+        background-size:100%;
     }
     svg {
         height: 400px;
