@@ -20,7 +20,7 @@ html, body {
 
 body {
     margin: -5vw 0 0 0;
-    background-image: url(bg.png);
+    background-image: url(bgn.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: var(--dark-blue);
