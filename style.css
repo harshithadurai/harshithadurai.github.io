@@ -20,7 +20,7 @@ html, body {
 
 body {
     margin: -5vw 0 0 0;
-    background-image: url(bgn.png);
+    background-image: url(bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: var(--dark-blue);
@@ -498,7 +498,7 @@ a {
 }
 
 .proj-col img {
-    float: center;
+    float: right;
     height: 10vw;
     width: 18.5vw;
     border: 0.35vw solid var(--pink);
@@ -527,9 +527,12 @@ a {
     visibility: visible;
     opacity: 70%;
   }
-
+  
 @media only screen and (max-width: 800px) {
     .overlay {
+        height: 20vw;
+        width: 37vw;
+        margin-left: 5.2vw;
         background-color: transparent;
     }
     .proj-col:hover .overlay {
