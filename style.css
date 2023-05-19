@@ -88,6 +88,20 @@ a {
     transform: translate(-50%, -50%);
 }
 
+.c6 {
+    position: absolute;
+    top: 70%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.c7 {
+    position: absolute;
+    top: 70%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
+
 .type {
     overflow: hidden;
     white-space: nowrap; 
@@ -192,6 +206,20 @@ a {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    .c6 {
+        position: absolute;
+        top: 50%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .c7 {
+        position: absolute;
+        top: 50%;
+        left: 74%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 
@@ -225,6 +253,22 @@ a {
     }
     .middiv2 {
         height: 2vw;
+    }
+    .c6 {
+        position: absolute;
+        top: 50%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+    
+    .c7 {
+        position: absolute;
+        top: 50%;
+        left: 74%;
+        transform: translate(-50%, -50%);
+        opacity: none;
+        display: none;
     }
 }
 
