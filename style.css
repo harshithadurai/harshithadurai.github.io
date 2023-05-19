@@ -39,6 +39,7 @@ a {
     width: 100%;
     text-align: center;
     font-size: 1.6vw;
+    margin-top: -90px;
 }
 
 .home-text1 {
@@ -247,6 +248,7 @@ a {
         margin-top: -50px;
     }
     .topdiv {
+        margin-top: 0px;
         font-size: 4vw;
         font-weight: 450;
         height: 100vw;
