@@ -20,7 +20,7 @@ html, body {
 
 
 body {
-    margin: -5vw 0 0 0;
+    margin: 0 0 0 0;
     background-image: url(bgn.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ a {
     .c1 {
         position: absolute;
         top: 18%;
-        left: 30%;
+        left: 25%;
     }
     
     .c2 {
@@ -199,7 +199,7 @@ a {
         top: 27%;
         left: 30%;
     }
-    
+
     .c5 {
         position: absolute;
         top: 41%;
@@ -254,20 +254,11 @@ a {
     .middiv2 {
         height: 2vw;
     }
+
     .c6 {
-        position: absolute;
-        top: 50%;
-        left: 72%;
-        transform: translate(-50%, -50%);
         display: none;
     }
-    
     .c7 {
-        position: absolute;
-        top: 50%;
-        left: 74%;
-        transform: translate(-50%, -50%);
-        opacity: none;
         display: none;
     }
 }
@@ -279,25 +270,25 @@ a {
     .c1 {
         position: absolute;
         top: 15%;
-        left: 10%;
+        left: 7%;
     }
     
     .c2 {
         position: absolute;
         top: 19%;
-        left: 10%;
+        left: 7%;
     } 
     
     .c3 {
         position: absolute;
         top: 23%;
-        left: 10%;
+        left: 7%;
     }
     
     .c4 {
         position: absolute;
         top: 27%;
-        left: 10%;
+        left: 7%;
     }
     
     .c5 {
@@ -351,10 +342,10 @@ a {
 
 @media only screen and (max-width: 800px) {
     .title {
-        font-size: 20px;
+        font-size: 30px;
     }
     .title-reflection {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
@@ -397,10 +388,10 @@ a {
     #column1 {
         padding-right: 0;
         padding-bottom: 30px;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .about-container {
-        height: 70vw;
+        height: 90vw;
         margin-bottom: -50px;
     }
     #column2 {
@@ -505,11 +496,11 @@ a {
         margin-bottom: -30px;
     }
     #skills-subtitle1 {
-        font-size: 13px;
+        font-size: 18px;
         margin-top: 10px;
     }
     #skills-subtitle2 {
-        font-size: 13px;
+        font-size: 18px;
     }
     .skills-container {
         background-image: url(skills-bg.png);
@@ -643,13 +634,13 @@ a {
 
 @media only screen and (max-width: 800px) {
     .exp-title {
-        font-size: 2.2vw;
+        font-size: 3vw;
     }
     .exp-content {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .date {
-        font-size: 2.1vw;
+        font-size: 2.6vw;
     }
 }
 
@@ -700,10 +691,10 @@ a {
         font-size: 3.4vw;
     }
     .scores th {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .awards {
-        font-size: 2.4vw;
+        font-size: 3vw;
     }
 }
 
@@ -747,8 +738,8 @@ a {
     .contact th {
         font-size: 3.6vw;
     }
-    .links a {
-        font-size: 1.6vw;
+    .links {
+        display: none;
     }
 }
 
@@ -763,6 +754,13 @@ a {
     font-size: 1.2vw;
     margin-top: 10vw;
 }
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        font-size: 2vw;
+    }
+}
+
 
 /* nav bar */
 
